@@ -8,6 +8,7 @@ import android.widget.Toast;
  */
 
 public class Util {
+    //static function for toast of short length
     public static void toastS(Context context,String message){
         Toast.makeText(context,message,Toast.LENGTH_SHORT).show();
     }
